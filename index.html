@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <meta name="author" content="Mouhcine Fallahi" />
+    <meta
+      name="description"
+      content="Frontend Mentor | Fylo landing page with two column layout , HTML/CSS/JS project done by Mouhcine Fallahi"
+    />
+    <!-- OpenGraph protocols for Fb -->
+    <meta
+      property="og:title"
+      content="Frontend Mentor | Fylo landing page with two column layout"
+    />
+    <meta
+      property="og:description"
+      content="Frontend Mentor | Fylo landing page with two column layout , HTML/CSS/JS project done by Mouhcine Fallahi"
+    />
+    <meta property="og:type" content="website" />
+    <!-- For Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="Frontend Mentor | Fylo landing page with two column layout"
+    />
+    <meta
+      name="twitter:description"
+      content="Frontend Mentor | Fylo landing page with two column layout , HTML/CSS/JS project done by Mouhcine Fallahi"
+    />
+    <!-- Apple specific -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Frontend Mentor | Fylo landing page with two column layout"
+    />
+    <!-- Keywords -->
+    <meta
+      name="keywords"
+      content="Frontend Mentor,html,css,web development,beginner,landing page"
+    />
+    <!-- Title -->
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <!------------------------------------------------------------------------------->
+  <!------------------------------------------------------------------------------->
+  <!------------------------------------------------------------------------------->
+  <body>
+    <div class="wrapper">
+      <header class="container">
+        <div class="header__logo">
+          <img src="./images/logo.svg" alt="Logo" />
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav__list flex items-center">
+            <li>Features</li>
+            <li>Team</li>
+            <li>Sign In</li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="main__section container">
+          <div class="main__img">
+            <img src="./images/illustration-1.svg" alt="illustration" />
+          </div>
+          <div class="main__content">
+            <h1>All your files in one secure location, accessible anywhere.</h1>
+            <p>
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
+            <form id="form1">
+              <div class="flex flex-col inputWithText">
+                <input
+                  type="text"
+                  id="email1"
+                  placeholder="Enter your email..."
+                  class="email"
+                />
+                <p class="error">Please check your email</p>
+              </div>
+              <button>Get Started</button>
+            </form>
+          </div>
+        </section>
+        <section class="secondary__section">
+          <picture>
+            <source
+              srcset="./images/bg-curve-desktop.svg"
+              media="(min-width: 370px)"
+            />
+            <img src="./images/bg-curve-mobile.svg" alt="curve" />
+          </picture>
+          <div class="secondary__section__background">
+            <div class="container secondary__section__container">
+              <div class="secondary__section__img">
+                <img
+                  src="./images/illustration-2.svg"
+                  alt="second illustration"
+                />
+              </div>
+              <div class="secondary__section__content">
+                <h2>Stay productive, wherever you are</h2>
+                <div class="secondary__section__description">
+                  <p>
+                    Never let location be an issue when accessing your files.
+                    Fylo has you covered for all of your file storage needs.
+                  </p>
+                  <p>
+                    Securely share files and folders with friends, family and
+                    colleagues for live collaboration. No email attachments
+                    required!
+                  </p>
+                </div>
+                <div class="secondary__section__link">
+                  See how Fylo works
+
+                  <img src="./images/icon-arrow.svg" alt="arrow" />
+                </div>
+                <article class="secondary__section__testimonial">
+                  <img src="./images/icon-quotes.svg" alt="quotes" />
+                  <p>
+                    Fylo has improved our team productivity by an order of
+                    magnitude. Since making the switch our team has become a
+                    well-oiled collaboration machine.
+                  </p>
+                  <div class="secondary__section__testimonial__author">
+                    <img
+                      src="./images/avatar-testimonial.jpg"
+                      alt="avatar"
+                      class="avatar"
+                    />
+                    <div class="">
+                      <h4>Kyle Burton</h4>
+                      <p>Founder & CEO, Huddle</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="bottom__section">
+          <div class="container bottom__section__container">
+            <div class="bottom__section__content">
+              <h3>Get early access today</h3>
+              <p>
+                It only takes a minute to sign up and our free starter tier is
+                extremely generous. If you have any questions, our support team
+                would be happy to help you.
+              </p>
+            </div>
+            <form id="form2">
+              <div class="inputWithText--bottom">
+                <input
+                  type="text"
+                  placeholder="email@example.com"
+                  id="email2"
+                  class="email"
+                />
+                <p class="errorBottom">Please check your email</p>
+              </div>
+              <button>Get Started For Free</button>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="container footer__container">
+          <div class="footer__first">
+            <div class="footer__logo">
+              <img src="./images/logo.svg" alt="logo" />
+            </div>
+            <div class="footer__contact">
+              <img src="./images/icon-phone.svg" alt="phone icon" />
+              <p>Phone: +1-543-123-4567</p>
+            </div>
+            <div class="footer__contact">
+              <img src="./images/icon-email.svg" alt="email icon" />
+              <p>example@fylo.com</p>
+            </div>
+          </div>
+          <div class="footer__second">
+            <ul>
+              <li>About Us</li>
+              <li>Jobs</li>
+              <li>Press</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <div class="footer__third">
+            <ul>
+              <li>Contact Us</li>
+              <li>Terms</li>
+              <li>Privacy</li>
+            </ul>
+          </div>
+          <div class="footer__fourth">
+            <ul>
+              <li><img src="./images/facebook.svg" alt="facebook icon" /></li>
+              <li><img src="./images/instagram.svg" alt="instagram icon" /></li>
+              <li><img src="./images/twitter.svg" alt="twitter icon" /></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
